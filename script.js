@@ -7,5 +7,5 @@ const output = document.getElementById('output');
 let isError = false;
 
 function cleanInputString(str) {
-    const regext = /[+-\s]/;
+    const regext = /[+-\s]/g;
 }
