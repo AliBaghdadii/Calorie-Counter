@@ -27,7 +27,9 @@ function addEntry() {
     targetInputContainer.insertAdjacentElement("beforeend", HTMLString);
 }
 
-addEntryButton.addEventListener("click", addEntry);
+function calculateCalories(e) {
+    
+}
 
 function getCaloriesFromInputs(list) {
     let calories = 0;
@@ -45,3 +47,5 @@ function getCaloriesFromInputs(list) {
 
     return calories;
 }
+
+addEntryButton.addEventListener("click", addEntry);
